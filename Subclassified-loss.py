@@ -69,6 +69,7 @@ class CrossEntropyLoss_Sub(nn.Module):
             down_sample_w = 8
             ds = 2
 
+            ########## The calculation of the weight map does not require gradients. ###########
             with torch.no_grad():
                 ########## To better utilize the GPU memory, we downsample the image into two different resolutions for operation. #############
                 #########################  Downsampling for computational efficiency  #############################
