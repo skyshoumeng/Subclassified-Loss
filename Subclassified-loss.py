@@ -107,19 +107,19 @@ class CrossEntropyLoss_Sub(nn.Module):
                 pixel_weight = pixel_weight.view(ss[0], 1, ss[2]//(down_sample_h//ds), ss[3]//(down_sample_w//ds))
                 pixel_weight = F.interpolate(pixel_weight, size=(ss[2], ss[3]), mode="bilinear")
 
-                loss_cls = self.loss_weight * self.cls_criterion(
-                    cls_score,
-                    label,
-                    weight,
-                    class_weight=class_weight,
-                    reduction="none",
-                    avg_factor=avg_factor,
-                    **kwargs)
-                
-                ############ weight normlization ############
-                pixel_weight = torch.clamp(pixel_weight / torch.mean(pixel_weight, dim=(2,3), keepdim=True), max=10.0)
+            loss_cls = self.loss_weight * self.cls_criterion(
+                cls_score,
+                label,
+                weight,
+                class_weight=class_weight,
+                reduction="none",
+                avg_factor=avg_factor,
+                **kwargs)
+            
+            ############ weight normlization ############
+            pixel_weight = torch.clamp(pixel_weight / torch.mean(pixel_weight, dim=(2,3), keepdim=True), max=10.0)
 
-                loss_cls = torch.mean(loss_cls * pixel_weight.detach())
+            loss_cls = torch.mean(loss_cls * pixel_weight.detach())
         else :
             loss_cls = self.loss_weight * self.cls_criterion(
                 cls_score,
