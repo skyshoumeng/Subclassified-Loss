@@ -3,13 +3,11 @@
 
 #### 
 
-Our code is very easy to use, Simply replace the loss function mmseg/models/loss/cross_entropy_loss.py 
-#### 
-under the mmsegmenation framework with the code we provide. 
+Our code is very easy to use, simply replace the loss function mmseg/models/loss/cross_entropy_loss.py under the mmsegmenation framework with the code we provide. 
 
 #### 
 
-For the training details, please refer to the instructions provided in mmsegmentation code base. 
+For the training details, please refer to the instructions provided in mmsegmentation codebase. 
 
 ####
 
