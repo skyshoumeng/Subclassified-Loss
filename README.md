@@ -6,4 +6,4 @@
 
 #### For the training details, please refer to the instructions provided in mmsegmentation code base. 
 
-#### We thanks for the opensource mmsegmentation(https://github.com/open-mmlab/mmsegmentation) codebase。 
+#### We thanks for the opensource [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) codebase。 
