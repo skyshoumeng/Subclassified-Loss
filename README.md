@@ -2,6 +2,10 @@
 Official code for our paper:  
 Subclassified Loss: Rethinking Data Imbalance from Subclass Perspective for Semantic Segmentation
 
+<p align="center">
+        <img src="figs/framework.pdf" title="SemanticKITTI Point Cloud" width="48%">
+        <em>LiDAR scan visualization of SemanticKITTI dataset(left) and the prediction result of PolarNet(right).</em>
+</p>
 
 #### 
 
