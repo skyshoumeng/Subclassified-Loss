@@ -21,6 +21,15 @@ Semantic segmentation plays a crucial role in enabling intelligent vehicles to p
         <img src="figs/framework.png" title="Subclassified Loss Pipeline" width="90%">
 </p>
 
+
+<p align="center">
+        <img src="figs/gain_class.png" title="Subclassified Loss Pipeline" width="90%">
+</p>
+
+<p align="center">
+        <img src="figs/weight_maps.png" title="Subclassified Loss Pipeline" width="90%">
+</p>
+
 #### Code 
 
 Our code is very easy to use, simply replace the loss function mmseg/models/loss/cross_entropy_loss.py under the mmsegmenation framework with the code we provide. 
