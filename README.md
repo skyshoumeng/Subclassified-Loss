@@ -36,6 +36,14 @@ Our code is very easy to use, simply replace the loss function mmseg/models/loss
 
 For the training details, please refer to the instructions provided in mmsegmentation codebase. 
 
+<pre>
+Take the STDC model as an example:
+STDC1:
+CUDA_VISIBLE_DEVICES=0,1 PORT=29500 sh tools/dist_train.sh configs/stdc/stdc1_512x1024_80k_cityscapes.py 2
+STDC2:
+CUDA_VISIBLE_DEVICES=0,1 PORT=29500 sh tools/dist_train.sh configs/stdc/stdc2_512x1024_80k_cityscapes.py 2
+</pre>
+
 ####
 
 We thanks for the opensource [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) codebase。 
