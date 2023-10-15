@@ -9,9 +9,7 @@ Corresponding-author: Jian Pu
 
 <p align="center">
         <img src="figs/subc.png" title="Subclassified Loss Pipeline" width="60%">
-</p>
-
-#### 
+</p> 
 
 ### Abstract
 
@@ -30,7 +28,7 @@ Semantic segmentation plays a crucial role in enabling intelligent vehicles to p
         <img src="figs/weight_maps.png" title="Subclassified Loss Pipeline" width="90%">
 </p>
 
-#### Code 
+### Code 
 
 Our code is very easy to use, simply replace the loss function mmseg/models/loss/cross_entropy_loss.py under the mmsegmenation framework with the code we provide. 
 
