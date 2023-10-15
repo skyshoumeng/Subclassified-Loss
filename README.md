@@ -8,7 +8,7 @@ Corresponding-author: Jian Pu
 </pre>
 
 <p align="center">
-        <img src="figs/subc.png" title="Subclassified Loss Pipeline" width="90%">
+        <img src="figs/subc.png" title="Subclassified Loss Pipeline" width="60%">
 </p>
 
 #### 
