@@ -2,8 +2,8 @@
 
 <pre>
 Subclassified Loss: Rethinking Data Imbalance from Subclass Perspective for Semantic Segmentation
-Shoumeng Qiu$^\dagger$, Xianhui Cheng$^\dagger$, Hong Lu, Haiqiang Zhang, Ru Wan, Xiangyang Xue, Jian Pu$^\ast
-$^\dagger$ Equal contribution
+Shoumeng Qiu*, Xianhui Cheng*, Hong Lu, Haiqiang Zhang, Ru Wan, Xiangyang Xue, Jian Pu \dagger
+*Equal contribution
 </pre>
 
 
