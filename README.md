@@ -1,6 +1,11 @@
-# 
-Official code for our paper:  
+# Official code for our paper:  
+
+<pre>
 Subclassified Loss: Rethinking Data Imbalance from Subclass Perspective for Semantic Segmentation
+Shoumeng Qiu$^\dagger$, Xianhui Cheng$^\dagger$, Hong Lu, Haiqiang Zhang, Ru Wan, Xiangyang Xue, Jian Pu$^\ast
+$^\dagger$ Equal contribution
+</pre>
+
 
 <p align="center">
         <img src="figs/framework.png" title="Subclassified Loss Pipeline" width="90%">
