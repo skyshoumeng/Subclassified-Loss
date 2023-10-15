@@ -1,4 +1,5 @@
-# Official code for our paper Subclassified-Loss
+# Official code for our paper:  
+Subclassified Loss: Rethinking Data Imbalance from Subclass Perspective for Semantic Segmentation
 
 
 #### 
